@@ -1,5 +1,4 @@
 #!/bin/bash
-
 docker stop alpine-php5
 docker rm alpine-php5
 docker rmi alpine-php5
