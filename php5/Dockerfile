@@ -22,7 +22,7 @@ addgroup -g 82 -S www-data ; \
 adduser -u 82 -D -S -G www-data www-data && exit 0 ; exit 1
 
 # copy config files
-#COPY fs /
+COPY fs /
 
 EXPOSE 9000
 WORKDIR /var/www/html
